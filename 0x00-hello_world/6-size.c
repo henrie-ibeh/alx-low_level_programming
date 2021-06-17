@@ -13,10 +13,11 @@ int intType;
 float floatType;
 double doubleType;
 char charType;
+double int_Max;
 printf("Size of a char: %zu byte(s)", sizeof(charType));
 printf("Size of a int: %zu byte(s)", sizeof(intType));
-printf("Size of a long int: %zu byte(s)", int_Max);
-printf("Size of a long long int: %zu byte(s)", int_Max);
+printf("Size of a long int: %zu byte(s)", sizeof(int_Max));
+printf("Size of a long long int: %zu byte(s)", sizeof(int_Max));
 printf("Size of a float: %zu byte(s)", sizeof(floatType));
 return (0);
 }
