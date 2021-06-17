@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*using the puts func */
 int main(void)
+  /*using the puts func */
 {
 char words[] = "\"Programming is like building a multilingual puzzle";
 puts(words);
