@@ -1,5 +1,4 @@
 #include <stdio.h>
-int n;
 int main(void)
 {
 if (n > 0)
