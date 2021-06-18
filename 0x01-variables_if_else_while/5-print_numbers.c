@@ -10,9 +10,7 @@
  */
 int main(void)
 {
-char z[] = "abcdefghijklmnopqrstuvwxyz";
 int i = 0;
-int a = 1;
 do {
 printf("%d", i);
 i++;
