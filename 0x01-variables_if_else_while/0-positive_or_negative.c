@@ -1,23 +1,32 @@
+// Online C compiler to run C program online
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
 /* betty style doc for function main goes there */
+/**
+ *main - prints string
+ *Description: prints a string
+ *Return: 0
+ */
 int main(void)
 {
 int n;
-int srand(time(0));
+srand(time(0));
 n = rand() - RAND_MAX / 2;
+/* your code goes there */
 if (n > 0)
 {
-  printf("%zu is positive\n", n);
+printf("%d is positive\n", n);
 }
-if (n < 0)
+else if (n == 0)
 {
-printf(n, "%zu is negative\n");
+printf("%d is 0\n", n);
 }
 else
 {
-printf(n, "%zu is zero\n");
+printf("%d is negative\n", n);
 }
 return (0);
 }
+
