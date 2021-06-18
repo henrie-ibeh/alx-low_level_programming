@@ -14,8 +14,10 @@ int main(void)
 char z[] = "abcdefghijklmnopqrstuvwxyz";
 int i;
 int len = strlen(z);
-for (i = 0; i < len; i++){
+for (i = 0; i < len; i++)
+{
 putchar(z[i]);
 }
+putchar('\n');
 return (0);
 }
