@@ -18,5 +18,6 @@ for (i = 0; i < len; i++)
 {
 putchar(z[i]);
 }
+putchar('\n')
 return (0);
 }
