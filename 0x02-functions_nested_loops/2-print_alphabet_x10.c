@@ -5,11 +5,11 @@
 /* more headers goes there */
 /* betty style doc for function main goes there */
 /**
- *main - prints string
+ *print_alphabet - prints string
  *Description: prints a string
  *Return: 0
  */
-void print_alphabet(void)
+int print_alphabet(void)
 {
 int i, len;
 char z[] = "abcdefghijklmnopqrstuvwxyz";
@@ -21,7 +21,7 @@ putchar(z[i]);
 putchar('\n');
 return (0);
 }
-void print_alphabet_x10(void)
+int print_alphabet_x10(void)
 {
 print_alphabet();
 print_alphabet();
