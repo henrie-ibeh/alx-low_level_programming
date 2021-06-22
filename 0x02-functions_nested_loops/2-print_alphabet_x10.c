@@ -4,6 +4,14 @@
 #include <time.h>
 /* more headers goes there */
 /* betty style doc for function main goes there */
+int print_alphabet(void);
+int print_alphabet_x10(void);
+int main(void)
+{
+print_alphabet_x10();
+return (0);
+}
+
 int print_alphabet(void)
 {
 int i, len;
@@ -28,10 +36,5 @@ print_alphabet();
 print_alphabet();
 print_alphabet();
 print_alphabet();
-return (0);
-}
-int main(void)
-{
-print_alphabet_x10();
 return (0);
 }
