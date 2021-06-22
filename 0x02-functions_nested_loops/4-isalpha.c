@@ -1,4 +1,4 @@
-#include "Holberton"
+#include "holberton.h"
 /* more headers goes there */
 int main(void);
 int _isalpha(int c)
