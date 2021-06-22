@@ -6,6 +6,11 @@
 /* more headers goes there */
 /* betty style doc for function main goes there */
 int print_alphabet();
+int main(void)
+{
+print_alphabet();
+return (0);
+}
 int print_alphabet(void)
 {
 int i, len;
