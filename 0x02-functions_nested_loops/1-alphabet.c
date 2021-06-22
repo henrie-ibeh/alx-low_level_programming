@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include<string.h>
-#include <time.h>
-#include "holberton.h"
 /* more headers goes there */
 /* betty style doc for function main goes there */
 int print_alphabet();
