@@ -9,5 +9,10 @@
  */
 int _putchar(char c)
 {
-	return (write(1, &c, 1));
+return (write(1, &c, 1));
+}
+int test_isalpha(char c)
+{
+isalpha(c);
+return (char c);
 }
