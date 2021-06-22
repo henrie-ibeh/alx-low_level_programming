@@ -5,7 +5,7 @@
 /* more headers goes there */
 int _isalpha(int c)
 {
-if (test_isalpha(c))
+if (_isalpha(isalpha(c)))
 {
 return (1);
 }else
