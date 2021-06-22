@@ -4,11 +4,6 @@
 #include <time.h>
 /* more headers goes there */
 /* betty style doc for function main goes there */
-/**
- *print_alphabet - prints string
- *Description: prints a string
- *Return: 0
- */
 int print_alphabet(void)
 {
 int i, len;
