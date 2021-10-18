@@ -1,22 +1,18 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include<string.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
-int print_alphabet(void)
+#include "holberton.h"
+
+/**
+ * print_alphabet - Printing the alphabet in lowercase
+ *
+ * Return 0
+ */
+void print_alphabet(void)
 {
-int i, len;
-char z[] = "abcdefghijklmnopqrstuvwxyz";
-len = strlen(z);
-for (i =0; i < len; i++)
+char c;
+
+for (c = 'a'; c <= 'z'; c++)
 {
-putchar(z[i]);
+_putchar(c);
 }
-putchar('\n');
-return (0);
-}
-int main(void)
-{
-print_alphabet();
-return (0);
+
+_putchar('\n');
 }
